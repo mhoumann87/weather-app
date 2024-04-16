@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #f7f7f7;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin: 3.125rem auto;
+  max-width: 37.5rem;
+  border-radius: 5px;
+  text-align: center;
+  padding: 1.25em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block-end: 1.25em;
+}
+
+form input[type='text'] {
+  font-size: 1.125rem;
+  padding: 0.625em;
+  border: none;
+  outline: none;
+  width: 60%;
+}
+
+form input[type='submit'] {
+  font-size: 1.125rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.625em 1.25em;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 300ms ease;
+}
+
+form input[type='submit']:is(:hover, :focus-visible) {
+  background-color: #0062cc;
+}
+
+.icon {
+}
+
+.icon img {
+  width: 6.25rem;
+  margin-inline: auto;
+  aspect-ratio: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.temperature {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-block: 1.25rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin-block-end: 1.25rem;
+}

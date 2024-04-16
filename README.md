@@ -2,7 +2,7 @@
 
 Web app to search weather around the world.
 
-Based on [OpenWeatherMap](https://openweathermap.org/api).
+Based on [WeatherAPI](https://www.weatherapi.com/).
 
 - HTML
 - CSS

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Weather App</h1>
+      <form>
+        <input
+          type="text"
+          name="city-input"
+          id="city-input"
+          placeholder="Enter city"
+        />
+
+        <input type="submit" value="Get Weather" />
+      </form>
+
+      <section id="weather-data">
+        <div class="icon">
+          <img
+            src="https://openweathermap.org/img/wn/01d.png"
+            alt="sunny weather"
+          />
+        </div>
+        <div class="temperature">22&#x2103;</div>
+
+        <div class="description">Sunny</div>
+
+        <div class="details">
+          <div>Feels like: 23&#x2103;</div>
+          <div>Humidity: 40%</div>
+          <div>Wind Speed: 5 m/s</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
